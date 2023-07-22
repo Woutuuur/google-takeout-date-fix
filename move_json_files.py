@@ -1,6 +1,7 @@
 import os
 import shutil
 
+os.mkdir('metadata')
 for dir in os.listdir('.'):
     if os.path.isdir(dir):
         os.mkdir(os.path.join('metadata', dir))
