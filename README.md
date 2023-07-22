@@ -12,4 +12,4 @@ Script to update the "last accessed date" and "created date" of a Google Photos 
 
 Note: this script only searches one directory level deep. If your export (somehow) has multiple levels of directories, this script won't account for those.
 
-Note 2: Google Photo's Takeout has some weird edge cases due to file name length limits. The script exits when it encounters a `.json` file it cannot find a image or video file for. Update the file names of these edge cases manually.
+Note 2: Google Photo's Takeout has some weird edge cases due to file name length limits. The script exits when it encounters a json file it cannot find a image or video file for. Update the file names of these edge cases manually.
