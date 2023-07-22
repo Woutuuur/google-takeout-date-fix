@@ -1,4 +1,4 @@
-# Google Takeout Date Fix
+# Google Photos Takeout Date Fix
 Script to update the "last accessed date" and "created date" of a Google Photos export. When you export your images from Google Takeout their creation date and last accessed metadata fields will be reset to the current time. Some apps use this date to determine the date the photo was taken (e.g. Synology Photos). This script takes the `"photoTakenTime"` field from each photo's associated json file and updates the metadata fields with that.
 
 ### Dependencies
