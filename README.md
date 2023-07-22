@@ -1,2 +1,1 @@
-# google-takeout-date-fix
-Script for 
+# Google Takeout Date Fix
